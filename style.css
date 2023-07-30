@@ -78,6 +78,29 @@ nav a:hover {
 
 @media screen and (max-width: 1200px) {
     body {
-        background: black;
+        margin: 0;
+        padding: 0;
+    }
+
+    #left-col {
+        position: relative;
+        margin: 0 auto;
+        font-size: 18px;
+        max-width: 100%;
+        background: none;
+        text-align: center;
+    }
+
+    #right-col {
+        left: 0;
+        margin: 0;
+        background: none;
+        width: fit-content;
+        padding: 20px;
+    }
+
+    nav {
+        flex-direction: row;
+        justify-content: center;
     }
 }
