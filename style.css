@@ -76,7 +76,7 @@ nav a:hover {
     margin: 100px 0px;
 }
 
-@media screen (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
     body {
         background: black;
     }
