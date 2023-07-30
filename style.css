@@ -27,10 +27,8 @@ html {
     font-size: 25px;
     padding: 10px;
     position: relative;
-    width: 600px;
-    left: 320px;
+    margin-left: 350px;
     background-color: rgba(0, 0, 0, .5);
-    margin-left: 20px;
     border-radius: 10px;
 }
 
