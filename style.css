@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=REM&display=swap');
+
+body {
+    margin: 25px 75px;
+    background: black;
+    padding: 0;
+    font-family: 'REM', sans-serif;
+    background: linear-gradient(45deg, blue, blueviolet);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+  
+#left-col {
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    position: fixed;
+    width: 300px;
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 10px;
+}
+  
+#right-col {
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+    position: relative;
+    width: 600px;
+    left: 320px;
+    background-color: rgba(0, 0, 0, .5);
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+.social-icon {
+    width: 50px;
+    height: 50px;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+}
+
+nav a {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: cornflowerblue;
+}
+
+#social-menu {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+#home {
+    margin-bottom: 200px;
+}
+
+.screenshot {
+    width: 50%;
+}
+
+#projects {
+    text-align: center;
+}
+
+.project {
+    margin: 100px 0px;
+}
+
+@media screen (max-width: 1200px) {
+    body {
+        background: black;
+    }
+}
